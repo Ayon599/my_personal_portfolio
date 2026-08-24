@@ -3,7 +3,7 @@ import {createRoot} from 'react-dom/client';
 import '../styles.css';
 import {projects} from './data';
 import {Footer,Header,ProjectVisual,Reveal} from './components';
-import profileImage from '../assets/ayon-profile.jpeg';
+import profileImage from '../assets/ayon-profile-cropped.jpeg';
 
 const skills=[['Frontend',['HTML5','CSS3','JavaScript','React','Responsive UI'],'92%'],['Backend',['Node.js','Express','REST APIs','Authentication','Validation'],'84%'],['Database',['MongoDB','PostgreSQL','Data modeling','Queries','Cloud storage'],'80%'],['Tools & workflow',['Git','GitHub','Vite','Figma','Deployment'],'88%']];
 

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ayon's portfolio — Full Stack Developer building modern web experiences." />
+  <title>Ayon | Full Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div id="root"><div style="padding:40px;font-family:Arial,sans-serif">Loading portfolio…</div></div>
+  <script>
+    function showError(message) {
+      document.getElementById('root').innerHTML = '<pre style="white-space:pre-wrap;padding:32px;color:#991b1b;background:#fee2e2;font:16px/1.5 monospace">React error: ' + message + '</pre>';
+    }
+    window.addEventListener('error', function (event) { showError(String(event.message) + '\n' + String(event.filename || '') + ':' + String(event.lineno || '')); });
+    window.addEventListener('unhandledrejection', function (event) { showError(String(event.reason?.message || event.reason)); });
+  </script>
+  <script type="module" src="./src/main.jsx"></script>
+</body>
+</html>

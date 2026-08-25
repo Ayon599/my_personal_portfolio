@@ -1,7 +1,7 @@
-const commerceImage='https://images.unsplash.com/photo-1586880244406-556ebe35f282?auto=format&fit=crop&w=1200&q=85';
-const financeImage='https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=1200&q=85';
-const flowboardImage='https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1200&q=85';
-const learningImage='https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=1200&q=85';
+import commerceImage from '../assets/project-commerce.png';
+import financeImage from '../assets/project-finance.png';
+import flowboardImage from '../assets/project-flowboard.png';
+import learningImage from '../assets/project-learning.png';
 
 export const projects = [
   { id:'ecommerce-platform', name:'Nova Commerce Platform', category:'Full stack · E-commerce', image:commerceImage, visual:'visual-commerce', stack:['React','Node.js','Express','MongoDB'], description:'A responsive e-commerce experience with product discovery, cart management, secure authentication, order tracking, and an administrator workflow.', challenge:'Keeping cart, inventory, authentication, and order states consistent across the client and server while preserving a fast experience on mobile devices.', improvement:'Add payment gateway integration, product recommendations, seller analytics, automated testing, and real-time inventory notifications.', live:'https://example.com/', github:'https://github.com/' },
